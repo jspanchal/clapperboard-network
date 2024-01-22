@@ -1,0 +1,16 @@
+title: "Clapperboard Network"
+description: "Making it easy to take your media projects from scratch to production"
+
+url: "clapperboard.network"
+baseurl: ""
+
+language: "en-US"
+
+logo: assets/images/clapperboard-logo.png
+favicon: assets/images/clapperboard-logo.png
+
+keywords: ["Clapperboard", "Network", "Media", "Movies", "Documentaries", "Short Films", "Artists"]
+
+exclude:
+  - .idea
+  - .vscode
