@@ -6,8 +6,8 @@ baseurl: ""
 
 language: "en-US"
 
-logo: assets/images/clapperboard-logo.png
-favicon: assets/images/clapperboard-logo.png
+logo: assets/svg/clapperboard-open.svg
+favicon: assets/images/clapperboard-favicon.ico
 
 keywords: ["Clapperboard", "Network", "Media", "Movies", "Documentaries", "Short Films", "Artists"]
 
