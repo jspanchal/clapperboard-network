@@ -30,7 +30,8 @@
 {% capture meta_keywords %}{{page_keywords | join: ', ' | escape}}{% endcapture %}
 
 <link href="{{ site.url }}/{{ site.favicon }}" rel="icon">
-<link href="{{ site.url }}/{{ site.favicon }}" rel="apple-touch-icon">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <meta name="title" content="{{meta_title}}">
 <meta name="description" content="{{meta_description}}">
