@@ -1,16 +1,48 @@
-title: "Clapperboard Network"
-description: "Making it easy to take your media projects from scratch to production"
+language: 'en-US'
+version: 1
 
-url: "clapperboard.network"
-baseurl: ""
+url: https://clapperboard.network
+baseurl:
+appurl: https://app.clapperboard.network/login
 
-language: "en-US"
+# Website info
+title: Clapperboard Network
+description: Light - Camera - Action
+cover: assets/images/cover.jpg
+logo: assets/svg/clapperboard-logo.svg
+text: assets/svg/clapperboard-text.svg
+logoWithText: assets/image/favicon.ico
+favicon: assets/svg/clapperboard-logo.svg
+keywords: [ 'Films', 'Artists' ]
 
-logo: assets/svg/clapperboard-open.svg
-favicon: assets/images/clapperboard-favicon.ico
 
-keywords: ["Clapperboard", "Network", "Media", "Movies", "Documentaries", "Short Films", "Artists"]
+# Social info
+navigation: True # show the navbar links
+twitter: clapperboardNW
+facebook: clapperboard.network
+linkedin: clapperboard-network
+instagram: clapperboard.network
 
 exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .git
   - .idea
   - .vscode
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
+compress_html:
+  clippings: [ ]
+  comments: [ ]
+  endings: [ ]
+  ignore:
+    envs: [ ]
+  blanklines: false
+  profile: false
+  startings: [ ]
